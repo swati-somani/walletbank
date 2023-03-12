@@ -1,0 +1,235 @@
+body
+{
+	font-family: "Bahnschrift SemiCondensed";
+	margin-top: 0px;
+	background: rgba(194,153,208,0.25);
+}
+.img1
+{
+	 height:50px;
+	 width:50px;
+	 border-radius: 5px;
+	 position: absolute;
+	 margin-top: 20px;
+	 margin-left: 20px;
+	 animation: 3s ease-out 0s 1 slideInLeft;
+}
+
+.wallet
+{
+	position: absolute;
+	margin-left: 75px;
+	
+}
+
+.phone
+{
+	height: 280px;
+	width: 120px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 30px;
+	
+}
+.ul1
+{
+	list-style: none;
+	font-size: 20px;
+	color: white;
+	padding: 1px;
+}
+.li1
+{
+	background-color: #5F4B8B;
+	margin-bottom: 5px;
+	padding: 1px;
+	padding-left: 2px;
+	animation: 3s ease-out 0s 1 slideInLeft;
+	width: 50px;
+}
+.li2
+{
+	background-color: #5F4B8B;
+	margin-bottom: 5px;
+	padding: 1px;
+	padding-left: 2px;
+	animation: 3s ease-out 0s 1 slideInLeft;
+	width: 70px;
+}
+.li3
+{
+	background-color: #5F4B8B;
+	margin-bottom: 5px;
+	padding: 1px;
+	padding-left: 2px;
+	animation: 3s ease-out 0s 1 slideInLeft;
+	width: 50px;
+}
+.shapebg
+{
+	position: absolute;
+	height:95%;
+	width: 724px;
+	background-color:  #5F4B8B;
+	margin-left: 500px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+
+	animation: 3s ease-out 0s 1 slideInLeft;
+}
+
+@keyframes slideInLeft
+{
+	0%
+	{
+		transform: translate(40%);
+	}
+	100%
+	{
+		transform: translate(0%);
+	}
+}
+
+.img2
+{
+	position: absolute;
+	height: 400px;
+	width: 200px;
+	border-radius: 20px;
+	margin-top: 100px;
+	margin-left: 400px;
+	z-index: 2;
+	animation: 3s ease-out 0s 1 slideInLeft1;
+}
+@keyframes slideInLeft1
+{
+	0%
+	{
+		transform: translate(80%);
+	}
+	100%
+	{
+		transform: translate(0%);
+	}
+}
+.phonebg
+{
+	position: absolute;
+	height: 400px;
+	width: 200px;
+	background-color: rgba(194,153,208,0.25); 
+	border-radius: 20px;
+	margin-top: 120px;
+	margin-left: 420px;
+	z-index: 1;
+	animation: 3s ease-out 0s 1 slideInLeft1;
+}
+.p1
+{
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 65px;
+	font-size: 50px;
+	color: #5E507E;
+	animation: 3s ease-out 0s 1 slideInLeft;
+}
+.p2
+{
+	position: absolute;
+	margin-top: 100px;
+	margin-left:700px;
+	font-size: 70px;
+	color: white;
+	animation: 3s ease-out 0s 1 slideInLeft;
+}
+.ul2
+{
+	position: absolute;
+	margin-top: 300px;
+	margin-left:690px;
+	font-size: 30px;
+	color: white;
+	animation: 3s ease-out 0s 1 slideInLeft;
+}
+button
+{
+	background-color: #ffac27;
+	border-radius: 10px;
+	position: absolute;
+	margin-top: 430px;
+	margin-left:710px;
+	height: 40px;
+	width: 150px;
+	padding-left: 5px;
+	color: white;
+	border-color:  #ffac27;
+	animation: 3s ease-out 0s 1 slideInLeft1;
+}
+.line
+{
+	width: 30px;
+	height: 2px;
+	background: white;
+	margin: 4px;
+}
+.hamburger
+{
+	position: absolute;
+	cursor: pointer;
+	margin-top: 40px;
+	margin-left: 1150px;
+	background: none;
+	animation: 3s ease-out 0s 1 slideInLeft1;  
+}
+
+nav
+{
+	height: 10vh;
+
+}
+
+.nav-links
+{
+	display: none;
+	list-style: none;
+	width: 10%;
+	height: 200px;
+	background: rgba(255,255,255,0.25);
+	justify-content: space-around;
+	padding: 20px;
+	align-items: center;
+	margin-left: 1020px;
+	margin-top: 65px;
+	position: absolute;
+	border-radius: 10px;
+
+}
+
+.nav-links li a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+.p3
+{
+	position: absolute;
+	font-size: 30px;
+	font-family: "Bahnschrift SemiCondensed";
+	margin-top: 600px;
+	margin-left: 500px;
+
+
+}
+
+.p4
+{
+	position: absolute;
+	font-size: 30px;
+	font-family: "Bahnschrift SemiCondensed";
+	margin-top: 625px;
+	margin-left: 530px;
+	color:  #5F4B8B;
+}
+
